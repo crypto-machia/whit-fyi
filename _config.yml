@@ -1,15 +1,26 @@
-title: Whit Richardson
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
+
+# Setup
+title:            Whit Richardson
 description: "Whit Richardson's personal website"
-url: https://whit.fyi/
+url:              https://whit.fyi
+baseurl:          /
 
-# Defaults set by GitHub, only need for local serving
-# https://help.github.com/articles/configuring-jekyll/
-kramdown:
-  input: GFM
-  hard_wrap: false
-  parse_block_html: true
 
-# These are GitHub defaults too, but we don't need them
-#gems:
-#  - jekyll-coffeescript
-#  - jekyll-paginate
+author:
+  name:           'Whit Richardson'
+  url:            https://twitter.com/whit_richardson
+
+paginate:         5
+
+# Custom vars
+version:          2.1.0
+
+github:
+  repo:           https://github.com/poole/hyde
