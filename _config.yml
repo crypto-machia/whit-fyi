@@ -9,7 +9,7 @@ relative_permalinks: true
 # Setup
 title:            Whit Richardson
 description: "Whit Richardson's personal website"
-url:              https://whit.fyi
+url:              
 baseurl:          /
 
 
